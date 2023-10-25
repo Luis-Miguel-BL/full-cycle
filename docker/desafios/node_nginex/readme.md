@@ -1,0 +1,1 @@
+Desafio: subir um container node, um container nginx e um container mysql por meio de um docker-compose e fazê-los se comunicarem
