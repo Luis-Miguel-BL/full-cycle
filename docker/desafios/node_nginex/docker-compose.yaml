@@ -18,7 +18,7 @@ services:
       context: ./node
     volumes:
       - ./node:/usr/src/app
-    command: dockerize -wait tcp://db:3306 -timeout 30s docker-entrypoint.sh
+    command: dockerize -wait tcp://db:3306 -timeout 60s docker-entrypoint.sh
     ports:
       - "5001:5001"
     depends_on:
